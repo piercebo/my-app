@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import ToolBar from './ToolBar';
 import reportWebVitals from './reportWebVitals';
+import Orientation from './Orientation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <ToolBar />
+    <Orientation />
   </React.StrictMode>
 );
 
